@@ -34,4 +34,9 @@ public class DoublyNode<T> {
 	public void setPrev(DoublyNode<T> prev) {
 		this.prev = prev;
 	}
+	
+	@Override
+	public String toString() {
+		return "@Node " + this.value;
+	}
 }
