@@ -12,13 +12,14 @@ import vn.binhtv.datastructure.list.single.LinkedList;
  */
 public class Stack<T> {
 	private LinkedList<T> list;
-	private int top = 0;
+	private int top;
 
 	/**
 	 * Creates an empty Stack.
 	 */
 	public Stack() {
 		this.list = new LinkedList<T>();
+		this.top = 0;
 	}
 
 	/**
